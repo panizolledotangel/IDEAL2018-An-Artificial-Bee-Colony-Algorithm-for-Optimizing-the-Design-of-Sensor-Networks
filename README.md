@@ -14,23 +14,23 @@ copy the url and paste it un your broswer.
 
 ## Structure
 Inside jupyter home is the proyect structure: <br>
-├── historic_evolution
-├── Hive
-├── notebooks
-│   ├── Case1_evolution.ipynb
-│   ├── Case_1_experiments.ipynb
-│   ├── Case2_evolution.ipynb
-│   ├── Case_2_experiments.ipynb
-│   ├── Case3_evolution.ipynb
-│   └── Case_3_experiments.ipynb
-├── sources
-│   ├── mongo_connection
-│   ├── plotting
-│   ├── problem_formulation
-|   ├── parallel_executions.py
-│   ├── SensorNetworkDesignABC.py
-│   └── settings.py
-└── test
+├── historic_evolution<br>
+├── Hive<br>
+├── notebooks<br>
+│   ├── Case1_evolution.ipynb<br>
+│   ├── Case_1_experiments.ipynb<br>
+│   ├── Case2_evolution.ipynb<br>
+│   ├── Case_2_experiments.ipynb<br>
+│   ├── Case3_evolution.ipynb<br>
+│   └── Case_3_experiments.ipynb<br>
+├── sources<br>
+│   ├── mongo_connection<br>
+│   ├── plotting<br>
+│   ├── problem_formulation<br>
+|   ├── parallel_executions.py<br>
+│   ├── SensorNetworkDesignABC.py<br>
+│   └── settings.py<br>
+└── test<br>
 
 * **sources**: contains the code of the proyect.
 * **Hive**: Custom Hive library for the ABC optimization.
