@@ -1,0 +1,35 @@
+version: "3"
+services:
+  db:
+    image: mongo
+    environment:
+      # provide your credentials here
+      - MONGO_INITDB_ROOT_USERNAME=angel
+      - MONGO_INITDB_ROOT_PASSWORD=rootPassXXX
+    ports:
+      - "27017:27017"
+    expose:
+      - "27017"
+    volumes:
+      - /home/angel/HDD/docker_volumes/mercedes-abc/_data2:/data/db
+    deploy:
+      replicas: 1
+      restart_policy:
+        condition: on-failure
+  notebook:
+    build:
+      context: ./
+      dockerfile: Dockerfile
+      args:
+        user_id: ${USER_ID}
+    entrypoint: /bin/bash ./host_data/start-notebook.sh
+    volumes:
+      - ./jupyter_home:/home/jupyter/host_data
+    ports:
+      - "8888:8888"
+    expose:
+      - "8888"
+    deploy:
+      replicas: 1
+      restart_policy:
+        condition: on-failure

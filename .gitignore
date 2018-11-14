@@ -1,0 +1,6 @@
+
+*.pyc
+
+jupyter_home/notebooks/\.ipynb_checkpoints/
+
+jupyter_home/\.coverage
