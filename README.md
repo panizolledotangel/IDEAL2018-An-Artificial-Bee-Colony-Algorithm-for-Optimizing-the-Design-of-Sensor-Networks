@@ -27,7 +27,7 @@ Inside jupyter home is the proyect structure: <br>
 │   ├── mongo_connection<br>
 │   ├── plotting<br>
 │   ├── problem_formulation<br>
-|   ├── parallel_executions.py<br>
+|   ├── parallel_executions.py<br>
 │   ├── SensorNetworkDesignABC.py<br>
 │   └── settings.py<br>
 └── test<br>
