@@ -2,6 +2,19 @@
 Code and data for the article "An Artificial Bee Colony Algorithm for Optimizing the Design of Sensor Networks"<br>     
 DOI: 10.1007/978-3-030-03496-2_35
 
+## Citation
+
+```
+@inproceedings{panizo2018artificial,
+  title={An Artificial Bee Colony algorithm for optimizing the design of sensor networks},
+  author={Panizo, {\'A}ngel and Bello-Orgaz, Gema and Carnero, Mercedes and Hern{\'a}ndez, Jos{\'e} and S{\'a}nchez, Mabel and Camacho, David},
+  booktitle={International Conference on Intelligent Data Engineering and Automated Learning},
+  pages={316--324},
+  year={2018},
+  organization={Springer}
+}
+```
+
 ## Requisites
 Having installed docker (https://www.docker.com/) and docker-compose (https://docs.docker.com/compose/install/).
 
